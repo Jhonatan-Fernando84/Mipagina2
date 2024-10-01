@@ -1,0 +1,41 @@
+/* Paleta de colores Verde azulado 50 */
+:root {
+    --primary-color: #34C759;
+    --secondary-color: #8BC34A;
+    --background-color: #F7F7F7;
+    --text-color: #333;
+    --font-family: 'Open Sans', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: var(--primary-color);
+    padding: 0;
+    text-align: center;
+}
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    padding: 20px;
+}
+footer {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer p {
+    margin: 0;
+}
