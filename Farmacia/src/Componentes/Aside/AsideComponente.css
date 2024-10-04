@@ -1,0 +1,51 @@
+/* Estilos para el contenedor del formulario de búsqueda */
+.search-aside {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos generales del formulario */
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Estilos del campo de entrada */
+.search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+/* Cambios cuando el campo de búsqueda está enfocado */
+.search-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Estilos del botón de búsqueda */
+.search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover en el botón */
+.search-button:hover {
+    background-color: #0056b3;
+}

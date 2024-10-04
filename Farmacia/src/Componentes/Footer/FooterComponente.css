@@ -1,0 +1,21 @@
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+address {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  address a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  address a:hover {
+    text-decoration: underline;
+  }
