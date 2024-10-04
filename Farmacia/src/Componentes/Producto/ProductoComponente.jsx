@@ -2,17 +2,17 @@ import './ProductoComponente.css';
 
 const item = [
   {
-    name: "Paracetamol 750 mg Oral 10 tabletas $68.00 MX",
+    name: "Paracetamol 750 mg Oral 10 tabletas",
     img: "Paracetamol.jpg",
-    price:68.00
+    price:68
   },
   {
-    name: "Ibuprofeno 600 mg Oral 10 tabletas  $74.00 MX",
+    name: "Ibuprofeno 600 mg Oral 10 tabletas",
     img: "Ibuprofeno.jpg",
     price:74
   },
   {
-    name: "Aspirina 500 mg 20 Tabletas $24.00 MX",
+    name: "Aspirina 500 mg 20 Tabletas",
     img: "Aspirina.jpg",
     price:24
   },
@@ -21,7 +21,8 @@ const ProductoComponente = () => {
   return (
     <>
       <h1>Lista de Medicamentos</h1>
-
+      <b> </b>
+      <b>Estos precios estan en peso mexicanos</b>
       <table className="productos">
         <thead>
           <tr>
