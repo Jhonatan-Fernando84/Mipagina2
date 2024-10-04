@@ -9,12 +9,12 @@ const item = [
   {
     name: "Ibuprofeno 600 mg Oral 10 tabletas  $74.00 MX",
     img: "Ibuprofeno.jpg",
-    price:70000
+    price:74
   },
   {
     name: "Aspirina 500 mg 20 Tabletas $24.00 MX",
     img: "Aspirina.jpg",
-    price:45665
+    price:24
   },
 ]
 const ProductoComponente = () => {
